@@ -8,6 +8,8 @@
 - `results_summary.md`：72 组主实验和 10 组 NUSWIDE Non-IID 实验的完整指标及备注。
 - `BDGP_result.txt`：BDGP `cp_type=1` 的 seed 级原始结果记录。
 - `NON_IID_MODES.md`：Non-IID 两种缺失模式的切换说明。
+- `results_data.csv`：从结果汇总表提取的 82 组指标数据。
+- `plot_results.py` 与 `figures/`：绘图脚本和实验结果图。
 - `requirements.txt`：Python 依赖列表。
 
 原始数据集、模型权重、虚拟环境、缓存和图像文件没有放入仓库。请按上游 README 获取有权使用的数据，并将整理后的文件放入 `data/`。
@@ -58,5 +60,21 @@ foreach ($d in $datasets) {
 ## 结果解释与限制
 
 结果是本地单次运行值，除 BDGP `cp_type=1` 的 5-seed 均值与样本标准差外，其余大多是单 seed。NUSWIDE 数据抽样、Reuters 转换和硬件/软件环境与作者原始设置可能不同。完整指标、OOM/负 Loss 等运行备注都收录在 `results_summary.md`。
+
+## 结果可视化
+
+以下图表展示各配置的最终指标，不是随 epoch 变化的训练收敛曲线。重新生成图表：
+
+```bash
+python plot_results.py
+```
+
+主实验 72 组结果（热力图）：
+
+![Main experiment metric heatmaps](figures/main_results_heatmap.png)
+
+NUSWIDE Non-IID 两种缺失模式的指标随缺失率变化：
+
+![NUSWIDE Non-IID metrics by missing rate](figures/noniid_results_by_missing_rate.png)
 
 

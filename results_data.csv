@@ -1,0 +1,83 @@
+﻿experiment,pattern,dataset,cp_type,miss_rate,ACC,NMI,ARI,PUR,status
+IID main,IID,BDGP,1,0.7,92.1,79.2,81.6,92.1,5 seeds 均值 ± 样本标准差
+IID main,IID,BDGP,1,0.5,95.1,85.7,88.2,95.1,5 seeds 均值 ± 样本标准差
+IID main,IID,BDGP,1,0.3,96.5,89.7,91.6,96.5,5 seeds 均值 ± 样本标准差
+IID main,IID,BDGP,2,0.7,89.5,73.1,75.8,89.5,seed 15
+IID main,IID,BDGP,2,0.5,94.0,82.4,85.6,94.0,seed 15
+IID main,IID,BDGP,2,0.3,96.9,90.6,92.5,96.9,seed 15
+IID main,IID,BDGP,3,0.7,74.3,56.3,49.8,74.3,seed 15
+IID main,IID,BDGP,3,0.5,69.9,56.1,40.7,69.9,seed 15
+IID main,IID,BDGP,3,0.3,74.4,61.6,54.3,74.4,seed 15
+IID main,IID,BBCSport,1,0.3,28.8,3.9,2.4,33.4,完成
+IID main,IID,BBCSport,1,0.5,33.5,6.3,2.8,41.7,完成
+IID main,IID,BBCSport,1,0.7,26.6,2.5,0.9,31.9,完成
+IID main,IID,BBCSport,2,0.7,35.8,9.3,4.6,60.6,完成
+IID main,IID,BBCSport,2,0.5,45.4,20.4,19.6,55.7,完成
+IID main,IID,BBCSport,2,0.3,47.7,19.3,14.2,72.8,完成
+IID main,IID,BBCSport,3,0.7,30.5,5.4,-0.3,59.1,完成；与此前孤立截图结果对应
+IID main,IID,BBCSport,3,0.5,32.0,6.8,4.8,39.0,完成
+IID main,IID,BBCSport,3,0.3,34.1,3.7,2.5,56.1,完成
+IID main,IID,Cifar10,1,0.7,93.1,84.2,85.4,93.1,完成
+IID main,IID,Cifar10,1,0.5,95.0,87.9,89.2,95.0,完成
+IID main,IID,Cifar10,1,0.3,96.7,91.5,92.8,96.7,完成
+IID main,IID,Cifar10,2,0.7,92.4,83.1,84.1,92.4,完成
+IID main,IID,Cifar10,2,0.5,94.6,87.3,88.6,94.6,完成
+IID main,IID,Cifar10,2,0.3,96.6,91.3,92.6,96.6,完成
+IID main,IID,Cifar10,3,0.7,80.8,78.8,73.4,90.2,完成
+IID main,IID,Cifar10,3,0.5,92.2,84.2,83.7,92.2,完成
+IID main,IID,Cifar10,3,0.3,95.8,89.9,91.1,95.8,完成
+IID main,IID,Cifar100,1,0.7,84.8,93.1,80.4,90.1,完成
+IID main,IID,Cifar100,1,0.5,94.8,99.0,95.2,97.9,完成
+IID main,IID,Cifar100,1,0.3,97.2,99.5,97.5,99.2,完成
+IID main,IID,Cifar100,2,0.7,93.2,95.3,91.0,96.0,完成
+IID main,IID,Cifar100,2,0.5,92.7,96.5,91.8,96.5,完成（修复显存问题后）
+IID main,IID,Cifar100,2,0.3,93.5,97.6,93.4,97.4,完成（2026-11-18）
+IID main,IID,Cifar100,3,0.7,14.0,53.4,11.9,24.5,完成（2026-11-18）
+IID main,IID,Cifar100,3,0.5,16.0,56.0,12.4,28.5,完成（2026-11-18）
+IID main,IID,Cifar100,3,0.3,15.3,56.8,14.3,27.6,完成（2026-11-19）
+IID main,IID,Hdigit,1,0.3,99.0,96.9,97.7,99.0,完成；seed 15
+IID main,IID,Hdigit,1,0.5,98.0,94.2,95.5,98.0,完成；seed 15
+IID main,IID,Hdigit,1,0.7,96.9,91.7,93.3,96.9,完成；seed 15
+IID main,IID,Hdigit,2,0.3,94.7,87.8,88.7,94.7,完成；seed 15
+IID main,IID,Hdigit,2,0.5,91.9,82.3,82.9,91.9,完成；seed 15
+IID main,IID,Hdigit,2,0.7,90.8,80.7,80.6,90.8,完成；seed 15
+IID main,IID,Hdigit,3,0.7,94.7,87.7,88.4,94.7,完成；seed 15
+IID main,IID,Hdigit,3,0.5,95.7,90.2,90.4,95.7,完成；seed 15
+IID main,IID,Hdigit,3,0.3,91.3,87.8,81.3,91.3,完成；seed 15
+IID main,IID,MNIST_USPS,1,0.3,98.6,96.2,97.0,98.6,完成；seed 15
+IID main,IID,MNIST_USPS,1,0.5,97.2,92.7,93.8,97.2,完成；seed 15
+IID main,IID,MNIST_USPS,1,0.7,95.1,88.3,89.4,95.1,完成；seed 15
+IID main,IID,MNIST_USPS,2,0.5,77.8,71.5,64.1,78.1,完成；seed 15
+IID main,IID,MNIST_USPS,2,0.3,70.9,73.7,62.8,77.9,完成；seed 15
+IID main,IID,MNIST_USPS,2,0.7,69.9,65.2,54.7,70.6,完成；seed 15
+IID main,IID,MNIST_USPS,3,0.3,94.8,90.4,88.5,94.8,完成；seed 15；训练日志出现负 Loss，不影响完成状态
+IID main,IID,MNIST_USPS,3,0.5,88.8,84.7,77.7,88.8,完成；seed 15
+IID main,IID,MNIST_USPS,3,0.7,72.0,77.8,62.4,91.5,完成；seed 15
+IID main,IID,REU,1,0.7,46.8,23.1,18.7,47.8,完成（Reuters_small 转换后）
+IID main,IID,REU,1,0.5,49.3,29.5,23.2,49.4,完成（2026-11-19）
+IID main,IID,REU,1,0.3,52.5,30.5,24.7,52.5,完成（2026-11-19）
+IID main,IID,REU,2,0.7,58.7,34.6,28.7,58.7,完成（2026-11-19）
+IID main,IID,REU,2,0.5,57.1,35.2,27.9,57.1,完成（2026-11-20）
+IID main,IID,REU,2,0.3,56.2,32.7,26.5,56.2,完成（2026-11-20）
+IID main,IID,REU,3,0.7,31.3,11.1,5.9,37.1,完成（2026-11-20）
+IID main,IID,REU,3,0.5,32.4,11.0,5.7,42.8,完成（2026-11-20）
+IID main,IID,REU,3,0.3,33.2,11.9,7.1,53.1,完成（2026-11-20）
+IID main,IID,NUSWIDE,1,0.7,53.6,22.6,21.6,53.6,"完成；由 NUSWIDEOBJ 五类各取 1,000 样本构造"
+IID main,IID,NUSWIDE,1,0.5,56.7,26.5,25.5,56.7,完成（2026-11-20）
+IID main,IID,NUSWIDE,1,0.3,59.3,30.5,29.3,59.3,完成（2026-11-20）
+IID main,IID,NUSWIDE,2,0.7,48.3,16.5,14.6,48.3,完成（2026-11-20）
+IID main,IID,NUSWIDE,2,0.5,49.8,19.1,17.1,49.8,完成（2026-11-20）
+IID main,IID,NUSWIDE,2,0.3,49.0,20.2,18.0,51.2,完成（2026-11-20）
+IID main,IID,NUSWIDE,3,0.7,38.1,10.7,9.7,46.0,完成（2026-11-20）
+IID main,IID,NUSWIDE,3,0.5,35.7,9.1,7.4,44.8,完成（2026-11-20）
+IID main,IID,NUSWIDE,3,0.3,32.0,6.6,3.3,51.0,完成（2026-11-20）
+NUSWIDE Non-IID,随机噪声,NUSWIDE,1,0.1,60.5,32.9,31.6,60.5,完成；seed 10
+NUSWIDE Non-IID,随机噪声,NUSWIDE,1,0.3,58.6,29.3,28.4,58.6,完成；seed 10
+NUSWIDE Non-IID,随机噪声,NUSWIDE,1,0.5,55.1,23.7,23.0,55.1,完成；seed 10
+NUSWIDE Non-IID,随机噪声,NUSWIDE,1,0.7,51.4,19.6,18.6,51.4,完成；seed 10
+NUSWIDE Non-IID,随机噪声,NUSWIDE,1,0.9,41.7,12.4,10.8,44.5,完成；seed 10
+NUSWIDE Non-IID,类别/数量不平衡,NUSWIDE,1,0.1,60.9,33.1,31.8,61.0,完成；seed 10
+NUSWIDE Non-IID,类别/数量不平衡,NUSWIDE,1,0.3,57.9,27.9,26.9,57.9,完成；seed 10
+NUSWIDE Non-IID,类别/数量不平衡,NUSWIDE,1,0.5,51.8,20.4,19.4,51.8,完成；seed 10
+NUSWIDE Non-IID,类别/数量不平衡,NUSWIDE,1,0.7,39.5,15.1,12.5,44.5,完成；seed 10
+NUSWIDE Non-IID,类别/数量不平衡,NUSWIDE,1,0.9,41.5,13.0,11.8,46.0,完成；seed 10
