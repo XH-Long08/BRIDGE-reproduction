@@ -69,7 +69,7 @@ foreach ($d in $datasets) {
 python plot_results.py
 ```
 
-主实验 72 组结果（热力图）：
+主实验 72 组结果：
 
 ![Main experiment metric heatmaps](figures/main_results_heatmap.png)
 
